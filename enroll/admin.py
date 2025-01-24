@@ -4,6 +4,6 @@ from enroll.models import Student
 # Register your models here.
 @admin.register(Student)
 class StudentAdmin(admin.ModelAdmin):
-    list_display = ('stuid' , 'stuname' , 'stuemail' , 'stupass')
+    list_display = ('name' , 'email' , 'password')
 
 # admin.site.register(Student , StudentAdmin )
